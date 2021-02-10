@@ -1,1 +1,137 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: 'Montserrat', sans-serif;
+}
+/* Navbar Section */
+#nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+}
+.navbar {
+      background-image: linear-gradient(to right, #1e1e20,#5d5d5f);
+      padding: 0 !important;
+}
+.navbar-brand img {
+      height: 100px;
+      padding-left: 40px;
+}
+.navbar-nav li {
+      padding: 0 10px;
+}
+.navbar-nav li a {
+      color: #fff !important;
+      font-weight: 400;
+      float: right;
+      text-align: left;
+}
+.navbar-toggler-icon {
+      color: #fff;
+      font-size: 20px !important;
+}
+.navbar-toggler {
+      outline: none !important;
+}
+/* Banner Section */
+#banner {
+      background-image: linear-gradient(to right, #1e1e20,#5d5d5f);
+      color: #fff;
+      padding-top: 3%;
+}
+.promo-title {
+      font-size: 65px;
+      font-weight: 400;
+      margin-top: 10px;
+}
+.slogan {
+      font-size: 32px;
+      font-style: italic;
+}
+.play-btn {
+      width: 45px;
+      margin: 20px;
+}
+#banner a {
+      color: #fff;
+      text-decoration: none;
+}
+/* Banner Section Wave-bottom */
+.bottom-img {
+      width: 100%;
+}
+/* How It Works section (services) */
+#services {
+      padding: 80px 0;
+}
+.services-img {
+      width: 100px;
+      margin-top: 20px;
+}
+.services {
+      padding: 20px;
+}
+.services h4 {
+      padding: 5px;
+      margin-top: 25px;
+      text-transform: uppercase;
+}
+/* lijnen onder de titel: nog aanpassen */
+.title::before {
+      content: '';
+      background: #84848a;
+      height: 5px;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      transform: translateY(63px);
+}
+.title::after {
+      content: '';
+      background: #84848a;
+      height: 10px;
+      width: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      display: block;
+      transform: translateY(8px);
+}
+/* lijnen tot hier */
+#services .btn-dark {
+      box-shadow: none;
+      padding: 8px 25px;
+      border: none;
+      border-radius: 25px;
+      background-image: linear-gradient(to right, #1e1e20,#5d5d5f);
+      font-size: 20px;
+}
+/* About Us Section */
+#about-us {
+      background: #eeeeee;
+      padding-bottom: 50px;
+      padding-top: 50px;
+}
+/* Register Section */
+#register {
+      padding-bottom: 50px;
+      padding-top: 50px;
+}
+/* Contact Section */
+#contact {
+      background: #eeeeee;
+      padding-bottom: 50px;
+      padding-top: 50px;
+}
+/* Footer Section */
+#footer {
+      padding-bottom: 50px;
+      padding-top: 50px;
+}
