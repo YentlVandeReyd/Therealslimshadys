@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <style>
+        #body {
+    background-image: url("assets/img/bg.jpg");
+    background-color: #cccccc;
+}
+        #test {
+            
+            min-height: 300px;
+            display: none;
+            text-align: center;
+        }
+        #center {
+            text-align: center;
+        }
+        .margins {
+            margin-bottom: 50px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="test">
+    <h1>Registratie</h1>
+        Full name <input type="text" class="margins">
+        Password <input type="text" class="margins">
+        <div>E-mail <input type="e-mail" class="margins">
+        Age <input type="number" class="margins"></div>
+        <div><label class="margins">Current consumption</label>
+        <select class="margins"> 
+            <option>Dagelijks</option>
+            <option>Wekelijks</option>
+            <option>Maandelijks</option>
+        </select></div>
+        <div><label>Goal</label>
+        <select class="margins"> 
+            <option>Minderen</option>
+            <option>Concentratie verbeteren</option>
+            <option>nog iets</option>
+        </select></div>
+    </div>
+    <div id="center"><button onclick=move()>Registreer nu</button></div>
+</body>
