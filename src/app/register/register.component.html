@@ -23,24 +23,50 @@
     </style>
 </head>
 <body>
-    <div id="test">
-    <h1>Registratie</h1>
-        Full name <input type="text" class="margins">
-        Password <input type="text" class="margins">
-        <div>E-mail <input type="e-mail" class="margins">
-        Age <input type="number" class="margins"></div>
-        <div><label class="margins">Current consumption</label>
-        <select class="margins"> 
-            <option>Dagelijks</option>
-            <option>Wekelijks</option>
-            <option>Maandelijks</option>
-        </select></div>
-        <div><label>Goal</label>
-        <select class="margins"> 
-            <option>Minderen</option>
-            <option>Concentratie verbeteren</option>
-            <option>nog iets</option>
-        </select></div>
+
+<!-- Register section-->
+<section id="register">
+    <div class="container">
+          <h1 class="title text-center">REGISTER</h1>
+          <p>Voorlopig snel een bootstrap-form ingestoken, kan verder gemaakt worden via bootstrap (VERSIE 4.X!!!, niet 5)</p>
+          <p>https://getbootstrap.com/docs/4.6/components/forms/</p>
+          <div class="row">
+                <form>
+                      <div class="form-group">
+                        <label for="FullName">Full Name</label>
+                        <input type="string" class="form-control" id="FullName">
+                      </div>
+                      <div class="form-group">
+                        <label for="Emailinput">Email address</label>
+                        <input type="email" class="form-control" id="Emailinput">
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="string" class="form-check-input" id="Password">
+                        <label for="Password">Password</label>
+                      </div>
+                      <div class="form-group">
+                        <label for="Birthdate">Birthdate</label>
+                        <input type="date" class="form-control" id="Birthdate">
+                      </div>
+                      <div class="form-group">
+                        <label for="Usage">Consumption</label>
+                        <select> 
+                            <option>Dagelijks</option>
+                            <option>Wekelijks</option>
+                            <option>Maandelijks</option>
+                        </select class="form-control" id="Usage">
+                      </div>
+                      <div class="form-group">
+                      <label for="Goal">Goal</label>
+                        <select > 
+                        <option>Minderen</option>
+                        <option>Concentratie verbeteren</option>
+                        <option>nog iets</option>
+                        </select class="form-control" id="Goal">
+                        </div>
+                      <button type="submit" class="btn btn-dark">Register</button>
+                    </form>
+          </div>
     </div>
-    <div id="center"><button onclick=move()>Registreer nu</button></div>
+</section>
 </body>
